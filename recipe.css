@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url(' font/Outfit-Regular.ttf');
+}
+
+* {
+    font-family: 'Outfit-Regular','Times New Roman';
+}
+
+
+.container {
+    background-color: hsl(30, 54%, 90%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.sheet {
+    /* height: 3500px;
+    width: 1700px;
+    background-color:  hsl(270, 100%, 100%); 
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    background-color: hsl(270, 100%, 100%);
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 60px;
+  
+
+}
+
+
+
+.foodimg {
+    height: 669px;
+    width: 1495px;
+    background-image: url(img/image-omelette.jpeg);
+    background-size: cover;
+    border-radius: 2%;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+   
+
+
+
+}
+
+
+.font_weight {
+    font-weight: bold;
+  font-size: 91px;
+  margin-right: 605px;
+}
+
+
+.txt {
+    font-size: 25px;
+}
+
+.prep {
+   height: 281px;
+  width: 1327px;
+  border-radius: 2%;
+  background-color: hsl(30, 54%, 90%); 
+  margin-right: 168px;
+  margin-top: 36px;
+  font-size: 20px;
+  padding-left: 32px;
+
+}
+   
+   
+   
+
+.ingredients {
+    height: auto;
+    width: auto;
+    border-radius: 3px;
+    border-bottom: 1px solid  hsl(331, 24%, 78%);
+    padding-right: 844px;
+    padding-top: 10px;
+    font-size: 22px;
+     
+   
+}
+
+.instructions {
+    height: auto;
+    width: auto;
+    border-radius: 3px;
+    border-bottom: 1px solid  hsl(331, 24%, 78%);
+    padding-right: 621px;
+    font-size: 23px;
+  
+   
+}
+ 
+
+.nutrition  {
+    padding-right: 581px;
+  font-size: 26px;
+}
+
+.table {
+    width: 172%;
+    border-collapse: collapse;
+    line-height: 58px;
+}
+
+
+.tr_border {
+    border-bottom: 1px solid  hsl(331, 24%, 78%);
+}
+
+.color {
+    color: hsl(0, 29%, 36%);
+
+}
+
+
