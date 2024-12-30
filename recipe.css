@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Outfit-Regular';
-    src: url(' font/Outfit-Regular.ttf');
+    src: url('font/Outfit-Regular.ttf');
 }
 
 * {
@@ -10,116 +10,95 @@
 
 .container {
     background-color: hsl(30, 54%, 90%);
-  height: 100%;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
    
 }
 
 .sheet {
-    /* height: 3500px;
-    width: 1700px;
-    background-color:  hsl(270, 100%, 100%); 
-    border-radius: 1%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
-    background-color: hsl(270, 100%, 100%);
-    border-radius: 45px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 60px;
+    height: 2125px;
+  width: 731px;
+  background-color: hsl(270, 100%, 100%);
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 41px;
+  margin-bottom: 21px;
+  padding: 60px;
+}
   
 
-}
-
-
-
 .foodimg {
-    height: 669px;
-    width: 1495px;
+    height: 358px;
+    width: 779px;
     background-image: url(img/image-omelette.jpeg);
     background-size: cover;
-    border-radius: 2%;
-    /* margin-top: 30px; */
+    border-radius: 12px;
+    margin-top: -40px;
     display: flex;
     justify-content: center;
    
-
-
-
 }
 
 
 .font_weight {
     font-weight: bold;
-  font-size: 91px;
-  margin-right: 605px;
+    font-size: 55px;
 }
 
 
 .txt {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .prep {
-   height: 281px;
-  width: 1327px;
-  border-radius: 2%;
-  background-color: hsl(30, 54%, 90%); 
-  margin-right: 168px;
-  margin-top: 36px;
-  font-size: 20px;
-  padding-left: 32px;
+    height: 227px;
+    width: 699px;
+    border-radius: 10px;
+    background-color: hsl(30, 54%, 90%);
+    margin-right: -4px;
+    margin-top: 33px;
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
 
 }
    
-   
-   
+ 
 
 .ingredients {
-    height: auto;
-    width: auto;
-    border-radius: 3px;
-    border-bottom: 1px solid  hsl(331, 24%, 78%);
-    padding-right: 844px;
-    padding-top: 10px;
-    font-size: 22px;
-     
-   
+  width: 635px;
+  border-bottom: 1px solid hsl(331, 24%, 78%);
+  font-size: 22px;
+  margin-right: 123px;   
 }
 
+
 .instructions {
-    height: auto;
-    width: auto;
-    border-radius: 3px;
-    border-bottom: 1px solid  hsl(331, 24%, 78%);
-    padding-right: 621px;
-    font-size: 23px;
-  
-   
+  width: 824px;
+  border-bottom: 1px solid hsl(331, 24%, 78%);
+  font-size: 23px;
 }
  
 
 .nutrition  {
-    padding-right: 581px;
-  font-size: 26px;
+    font-size: 26px;
 }
 
 .table {
-    width: 172%;
+    width: 100%;
     border-collapse: collapse;
     line-height: 58px;
+  
 }
 
 
 .tr_border {
     border-bottom: 1px solid  hsl(331, 24%, 78%);
+    
+
 }
 
 .color {
